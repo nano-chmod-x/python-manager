@@ -38,9 +38,9 @@ do not accept options (such as launching a runtime).
 To run the test suite locally:
 
 ```
-> python -m pip install pymsbuild pytest
-> python -m pymsbuild -c _msbuild_test.py
-> python -m pytest
+python -m pip install pymsbuild pytest
+python -m pymsbuild -c _msbuild_test.py
+python -m pytest
 ```
 
 This builds the native components separately so that you can quickly iterate on
@@ -52,8 +52,8 @@ the Python code. Any updates to the C++ files will require running the
 To produce an (almost) installer app package:
 
 ```
-> python -m pip install pymsbuild
-> python make-all.py
+python -m pip install pymsbuild
+python make-all.py
 ```
 
 This will rebuild the project and produce MSIX, APPXSYM and MSI packages.
