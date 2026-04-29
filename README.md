@@ -19,9 +19,9 @@ To build and run locally requires [`pymsbuild`](https://pypi.org/project/pymsbui
 and a Visual Studio installation that includes the C/C++ compilers.
 
 ```
-> python -m pip install pymsbuild
-> python -m pymsbuild
-> python-manager\py.exe ...
+python -m pip install pymsbuild
+python -m pymsbuild
+python-manager\py.exe ...
 ```
 
 Any modification to a source file requires rebuilding.
